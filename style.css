@@ -1,0 +1,23 @@
+p {
+	font-family: fantasy, Times, serif;
+	font-weight:bold;
+	font-size:30px;
+	font-style:oblique;
+	color: #DC143C; 		/*Цвет текста */
+}
+
+body {
+    background: #E6E6FA; 	/*Цвет фона */
+    color: #191970; 		/*Цвет текста */
+}
+
+.submit{
+	color: #fff; /*Цвет текста*/
+	background: rgb(64,199,129);; /*Фон кнопки */
+	padding: .8em 1em calc(.8em + 3px); /*Размер кнопки*/
+	border-radius: 5px;/*Закругление краев*/
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+}
+
+.submit:hover { background: rgb(232,95,76); }; /*При наведении*/
+
